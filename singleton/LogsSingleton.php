@@ -4,38 +4,38 @@ namespace Singleton;
 
 class LogsSingleton {
 
-    /** @var self $instance Instância da classe de logs */
-    protected static $instance;
+    /** @var self $instancia Instância da classe de logs */
+    protected static $instancia;
 
     private function __construct() {}
 
-    public function storeLog(array $data)
+    public function gravarLog(array $data)
     {
-        $fileName = 'logs.txt';
+        $nomeArquivo = 'logs.txt';
 
-        $logsOld = [];
-        if (filesize($fileName) > 0) {
-            $contentFile = file_get_contents($fileName);
+        $logsAnteriores = [];
+        if (filesize($nomeArquivo) > 0) {
+            $conteudoDoArquivo = file_get_contents($logsAnteriores);
 
-            $logsOld = json_decode($contentFile, true);
+            $logsAnteriores = json_decode($conteudoDoArquivo, true);
         }
 
-        $logsOld[] = $data;
+        $logsAnteriores[] = $data;
 
-        $file = fopen($fileName, 'w');
+        $arquivo = fopen($nomeArquivo, 'w');
 
-        fwrite($file, json_encode($logsOld));
+        fwrite($arquivo, json_encode($logsAnteriores));
 
-        fclose($file);
+        fclose($arquivo);
     }
 
-    public static function getInstance(): self
+    public static function obterInstancia(): self
     {
-        if (empty(self::$instance)) {
-            self::$instance = new self();
+        if (empty(self::$instancia)) {
+            self::$instancia = new self();
         }
 
-        return self::$instance;
+        return self::$instancia;
     }
 
     private function __clone() {}

@@ -4,9 +4,9 @@ require_once '../autoloader.php';
 
 use Singleton\LogsSingleton;
 
-$instance = LogsSingleton::getInstance();
-$newInstance = LogsSingleton::getInstance();
+$instancia = LogsSingleton::obterInstancia();
+$novaInstancia = LogsSingleton::obterInstancia();
 
-if ($instance == $newInstance) {
+if ($instancia == $novaInstancia) {
     echo 'Mesma instância !!';
 }
