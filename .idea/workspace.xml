@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="033e9410-5337-4667-ab60-e68209279931" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryMethod/CarroFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryMethod/DodgeFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryMethod/Product/CarroProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryMethod/Product/DodgeCharger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryMethod/Product/DodgeDart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryMethod/Product/TeslaModeloS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryMethod/Product/TeslaModeloX.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryMethod/TeslaFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryMethod/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/LogsSingleton.php" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/LogsSingleton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586297652012</updated>
       <workItem from="1586297653643" duration="1856000" />
-      <workItem from="1586458058422" duration="1136000" />
+      <workItem from="1586458058422" duration="4415000" />
     </task>
     <servers />
   </component>
@@ -61,9 +67,21 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="457" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821@0.23.1440.821" timestamp="1586456131968" />
-    <state x="544" y="364" key="NewPhpFileDialog" timestamp="1586457380818">
+    <state x="363" y="257" key="NewPhpClassDialog" timestamp="1586477407936">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="544" y="364" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1586457380818" />
+    <state x="363" y="257" key="NewPhpClassDialog/0.23.1440.821@0.23.1440.821" timestamp="1586477407936" />
+    <state x="544" y="364" key="NewPhpFileDialog" timestamp="1586471615829">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="544" y="364" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1586471615829" />
+    <state x="400" y="190" width="639" height="486" key="find.popup" timestamp="1586472462042">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="400" y="190" width="639" height="486" key="find.popup/0.23.1440.821@0.23.1440.821" timestamp="1586472462042" />
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1586476929296">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1586476929296" />
   </component>
 </project>
