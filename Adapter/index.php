@@ -6,7 +6,7 @@ $integracaoLegado = new \Adapter\IntegracaoErp();
 
 $integracaoErpAdapter = new \Adapter\IntegracaoErpAdapter($integracaoLegado);
 
-$token = $integracaoErpAdapter->gerarToken('123456', 'GABRIEL_ANHAIA');
+$token = $integracaoErpAdapter->gerarToken('123456', 'HENRIQUE_MATOS');
 
 $pedidoDeTeste = new \Adapter\Pedido();
 $pedidoDeTeste->setValorTotal(3509.50)
